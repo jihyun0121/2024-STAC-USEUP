@@ -9,12 +9,6 @@
     /* 변수를 사용할 때는 var(--main-color); 이렇게 사용 */
     --main-font: 'Pretendard';
     --main-color: #46A6FF;
-
-    /* 기본 한 페이지 높이 */
-    --page-height: calc(100vh - var(--header-height));
-    /* 푸터 높이 */
-    --footer-height: 7vh;
-
 }
 
 * {
