@@ -1,0 +1,20 @@
+/* 모두가 공통으로 import 해야하는 기초 세팅 파일 */
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+}
+
+:root {
+    /* 변수를 사용할 때는 var(--main-color); 이렇게 사용 */
+    --main-font: 'Pretendard';
+    --main-color: #46A6FF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* 폰트는 전역설정 완료 */
+    font-family: var(--main-font);
+}
