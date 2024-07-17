@@ -21,6 +21,10 @@ header {
     font-weight: 600;
 }
 
+.myPage-icon,.myPage-ment {
+    filter: invert(66%) sepia(75%) saturate(4425%) hue-rotate(192deg) brightness(108%) contrast(101%);
+}
+
 /* 유저 프로필 */
 #profile_card {
     display: inline-block;
