@@ -1,0 +1,131 @@
+body {
+    padding-top: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 2.3vh;
+    font-weight: 600;
+}
+
+/* 유저 프로필 */
+#profile_card {
+    display: inline-block;
+    width: 70vw;
+    border-radius: 12px;
+    padding: 3vh;
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #36B7FF, #5883FF);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profile_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#profile_picture {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#profile_picture img {
+    width: 100%;
+    height: auto;
+}
+#profile_name {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#point {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    background: #fff;
+    border-radius: 12px;
+    padding: 0 20px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.line {
+    width: 1px;
+    height: 24px;
+    background-color: #B4B5B7;
+}
+#point span {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/* 마이쇼핑 및 마이카트 */
+.shopping_data {
+    width: 70vw;
+    border-radius: 12px;
+    padding: 2vh;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0 0 5px  rgba(0, 0, 0, 0.1);
+}  
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 5px;
+}
+.content div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 8px 0;
+}
+.content div:not(:last-child) {
+    border-right: 1px solid #e0e0e0;
+}
+.content div span:first-child {
+    display: block;
+    font-size: 1.7rem;
+    color: #D1D2D1;
+    font-weight: bold;
+}
+.content div span:last-child {
+    display: block;
+    font-size: 0.7rem;
+    color: #D1D2D1;
+    margin-top: 5px;
+}
