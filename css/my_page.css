@@ -22,7 +22,8 @@ header {
 }
 
 .myPage-icon,.myPage-ment {
-    filter: invert(66%) sepia(75%) saturate(4425%) hue-rotate(192deg) brightness(108%) contrast(101%);
+    filter: invert(66%) sepia(75%) saturate(4425%) 
+    hue-rotate(192deg) brightness(108%) contrast(101%);
 }
 
 /* 유저 프로필 */
@@ -132,4 +133,24 @@ header {
     font-size: 0.7rem;
     color: #D1D2D1;
     margin-top: 5px;
+}
+
+/* 계좌 관리 */
+#account_data {
+    width: 80vw;
+    margin: 1.5vh;
+    padding: 0 2vh;
+}
+#account_data .line {
+    width: 80vw;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.management {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #898A8D;
+    margin: 1.8vh;
 }
