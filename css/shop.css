@@ -2,16 +2,14 @@
     margin-left: 7.5vw;
     margin-top: 5vw;
     margin-bottom: 1.5vw;
-    display: flex;
-    text-align: center;
-    justify-content: center
 }
 
 header{
     height: auto;
     display: flex;
     text-align: center;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 25px;
 }
 header > img{
     position: absolute;
@@ -38,10 +36,10 @@ header > textarea{
 }
 header::-webkit-scrollbar {
     display: none;
-  }
+}
 
-.click_btn{
-    filter: invert(66%) sepia(75%) saturate(4425%) hue-rotate(192deg) brightness(108%) contrast(101%);
+.banner > img{
+    width: 100vw;
 }
 
 footer > button{
@@ -51,4 +49,7 @@ footer > button{
 }
 button > p{
     margin-top: 0.3vh;
+}
+.click_btn{
+    filter: invert(66%) sepia(75%) saturate(4425%) hue-rotate(192deg) brightness(108%) contrast(101%);
 }
