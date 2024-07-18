@@ -1,0 +1,170 @@
+.header-div{
+    display: flex;
+    align-items: center;
+    margin-inline-start: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.rogo-img {
+    margin-left: 7.5vw;
+    margin-top: 5vw;
+    margin-bottom: 1.5vw;
+    /* margin-right: 1.5vw; */
+}
+.bell {
+    width: 50%;
+    height: 50%;
+}
+.bell-div {
+    margin-left: 52vw;
+}
+.bell-div > button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.text{
+    font-size:larger;
+    font-weight: bold;
+    margin: auto;
+}
+.text-div{
+    margin: 8vw;
+    margin-top: auto;
+}
+.slider {
+    position: relative;
+}
+.slider > input[id="slide"] {
+    display: none;
+}
+.slider .slidewrap {
+    max-width: 200vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider .slidelist {
+    white-space: nowrap;
+    font-size: 0;
+}
+.slider .slidelist > li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .5s;
+    flex-shrink: 0;
+}
+.slider .slidelist > li > a{
+    display: block;
+    position: relative;
+}
+.slider .slidelist > li > a img {
+    width: 100%;
+}
+.slider .slidelist label {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50vw;
+    cursor: pointer;
+}
+.slider .slidelist .left {
+    left: 45vw;
+    background: url(/img/right.svg) center center / 5vw no-repeat;
+}
+.slider .slidelist .right {
+    right: 45vw;
+    background: url(/img/left.svg) center center / 5vw no-repeat;
+}
+
+.slider-indicators {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.slider-indicators label {
+    width: 10px;
+    height: 10px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.slider-indicators > label.active {
+    width: 20px;
+    background-color: #36B7FF;
+}
+
+.carousel-control-prev .carousel-control-prev-icon,
+    .carousel-control-next .carousel-control-next-icon  {
+    display: none;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 5vw;
+    left: 50%;
+    /* transform: translateY(200%); */
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    list-style: none;
+}
+.carousel-indicators .active{
+    background-color: #46A6FF;
+}
+section > article >  p {
+    display: inline-block;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 6vw;
+    margin-left : 8vw;
+}
+.issueText {
+    margin: 0;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 6vw;
+    margin-left : 8vw;
+}
+.more {
+    margin: 1vw;
+    margin-left: 81vw;
+    color: #898A8D;
+    font-size: smaller;
+}
+.issue {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.issue > .blue,
+    .issue > .yellow,
+        .issue > .red {
+    display: inline;
+}
+.issue > .red{
+    display: inline-block;
+    /* position: absolute; */
+}
+.img-div{
+    margin-left: 8vw;
+}
+.img-div, .img-div-1, .img-div-2 {
+    margin-right: 2vw;
+}
+.guide-img {
+    width: 100%;
+    max-width: 0vw;
+    margin-left: 4vw;
+}
+.home{
+    margin-top: 10vw;
+    color: var(--main-color);
+}
