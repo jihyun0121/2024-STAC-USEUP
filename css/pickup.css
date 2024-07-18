@@ -140,26 +140,29 @@ main {
 }
 
 .kit-title {
+    position: absolute;
     font-size: 14px;
     font-weight: 600;
     line-height: 140%; /* 19.6px */
-    margin-top: 10px;
+    left: 35vw;
 }
 
 .kit-date {
+    position: absolute;
     color: #ADADAD;
     font-size: 12px;
     font-weight: 500;
     line-height: 140%; /* 16.8px */
-    margin-top: 5px;
+    left: 35vw;
+    top: 5vh;
 }
 
 .kit-more {
     border: none;
     background: none;
     position: absolute;
-    right: 8vw;
-    bottom: 3vh;
+    right: 6vw;
+    bottom: 2vh;
 }
 
 .kit-more p {
