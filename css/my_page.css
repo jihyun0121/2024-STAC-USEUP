@@ -29,10 +29,10 @@ header {
 /* 유저 프로필 */
 #profile_card {
     display: inline-block;
-    width: 70vw;
+    width: 72vw;
     border-radius: 12px;
-    padding: 3vh;
-    margin: 20px auto;
+    padding: 2.5vh 2vh;
+    margin: 25px auto;
     background: linear-gradient(to bottom, #36B7FF, #5883FF);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -43,8 +43,8 @@ header {
     margin-bottom: 15px;
 }
 #profile_picture {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-color: #fff;
     border-radius: 50%;
 }
@@ -54,7 +54,7 @@ header {
 }
 #profile_name {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin: 0 20px;
 }
@@ -63,9 +63,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 6vh;
     background: #fff;
-    border-radius: 12px;
+    border-radius: 9px;
     padding: 0 20px;
 }
 .left {
@@ -76,7 +76,7 @@ header {
     display: flex;
     align-items: center;
 }
-.line {
+#point .line {
     width: 1px;
     height: 24px;
     background-color: #B4B5B7;
@@ -84,7 +84,7 @@ header {
 #point span {
     font-weight: 600;
     font-size: 1rem;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 /* 마이쇼핑 및 마이카트 */
@@ -92,7 +92,7 @@ header {
     width: 70vw;
     border-radius: 12px;
     padding: 2vh;
-    margin: 10px auto;
+    margin: 12px auto;
     background: #fff;
     box-shadow: 0 0 5px  rgba(0, 0, 0, 0.1);
 }  
@@ -107,24 +107,22 @@ header {
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px 0 5px;
+    margin-top: 2vh;
 }
 .content div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    flex: 1;
-    padding: 8px 0;
+    width: 13vw;
 }
-.content div:not(:last-child) {
-    border-right: 1px solid #e0e0e0;
+.content .line {
+    width: 1.6px;
+    height: 7vh;
+    background-color: #EEEEEE;
 }
 .content div span:first-child {
     display: block;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #D1D2D1;
     font-weight: bold;
 }
@@ -137,14 +135,19 @@ header {
 
 /* 계좌 관리 */
 #account_data {
-    width: 80vw;
-    margin: 1.5vh;
+    width: 78vw;
+    margin: 3.5vh 2vh;
     padding: 0 2vh;
 }
+
+#account_data h2 {
+    font-size: 1.3rem;
+}
 #account_data .line {
-    width: 80vw;
+    width: 78vw;
     height: 1px;
     margin: 10px 0;
+    background-color: #DEDEDE;
 }
 
 .management {
@@ -152,5 +155,6 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #898A8D;
-    margin: 1.8vh;
+    margin: 2vh;
+    font-size: 2vh;
 }
