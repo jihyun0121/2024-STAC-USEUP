@@ -2,6 +2,9 @@
     margin-left: 7.5vw;
     margin-top: 5vw;
     margin-bottom: 1.5vw;
+    display: flex;
+    text-align: center;
+    justify-content: center
 }
 
 header{
@@ -19,7 +22,7 @@ header > button{
     border: 0;
     background-color: rgba(0, 0, 0, 0);
     padding-top: 13.5px;
-    margin-left: 30vw;
+    margin-left: 245px;
 }
 header > textarea{
     /* width: 80vw; */
@@ -28,8 +31,8 @@ header > textarea{
     border: none;
     resize: none;
     background-color: rgba(0, 0, 0, 0);
-    padding-top: 16px;
-    padding-left: 4vw;
+    padding-top: 17px;
+    padding-left: 20px;
     scroll-behavior: none;
     outline: none;
 }
