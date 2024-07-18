@@ -1,0 +1,51 @@
+.logo{
+    margin-left: 7.5vw;
+    margin-top: 5vw;
+    margin-bottom: 1.5vw;
+}
+
+header{
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+header > img{
+    position: absolute;
+    z-index: -1;
+}
+header > button{
+    position: absolute;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 13.5px;
+    margin-left: 30vw;
+}
+header > textarea{
+    /* width: 80vw; */
+    width: 285px;
+    height: 2.5vh;
+    border: none;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 16px;
+    padding-left: 4vw;
+    scroll-behavior: none;
+    outline: none;
+}
+header::-webkit-scrollbar {
+    display: none;
+  }
+
+.click_btn{
+    filter: invert(66%) sepia(75%) saturate(4425%) hue-rotate(192deg) brightness(108%) contrast(101%);
+}
+
+footer > button{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #B9B9B9;
+}
+button > p{
+    margin-top: 0.3vh;
+}
